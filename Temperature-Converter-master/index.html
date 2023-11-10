@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempreture Transformer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Tempreture Transformer</h1>
+        </div>
+        <div class="input-container">
+            <div class="kelvin temp">
+                <label for="kelvin" class="label">Kelvin:</label>
+                <input type="number" onchange="calculation(event)" class="input" id="kelvin" name="kelvin" placeholder="Enter Tempreture">
+            </div> 
+            <div class="fahrenheit temp">
+                <label for="fahrenheit" class="label">Fahrenheit:</label>
+                <input type="number" onchange="calculation(event)" class="input" id="fahrenheit" name="fahrenheit" placeholder="Enter Tempreture">
+            </div>
+            <div class="celsius temp">
+                <label for="celsius" class="label">Celsius:</label>
+                <input type="number" onchange="calculation(event)" class="input" id="celsius" name="celsius" placeholder="Enter Tempreture">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
